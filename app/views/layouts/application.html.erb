@@ -1,7 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
 <head>
   <title>Workspace</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -9,8 +7,10 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <%= render 'layouts/navigation' %>
+  <div class = "container">
+      <%= yield %>
+  </div>
+  <%= render 'layouts/footer' %>
 </body>
 </html>
