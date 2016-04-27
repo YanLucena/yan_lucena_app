@@ -2,11 +2,28 @@
     <small>
         <footer class = "footer">
             <ul class="nav navbar-nav navbar-justified">
-                <li><a>Copyright &copy; by Yan Lucena</a></li>
-                <li><a><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                <li><a><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                <li><a><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                <li><a><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></a></li>
+
+                    Copyright &copy; by Yan Lucena
+            
+                <%= link_to "https://www.facebook.com/Lucena.Yan", :target => "_blank" do %>
+                    <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
+                <% end %>
+                
+                <%= link_to "https://www.linkedin.com/in/yan-lucena-9284a3b1", :target => "_blank" do %>
+                    <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+                <% end %>
+                
+                <%= link_to "https://www.instagram.com/yanlucena/", :target => "_blank" do %>
+                    <li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+                <% end %>
+                
+                <%= link_to "https://twitter.com/mr_yanlucena", :target => "_blank" do %>
+                    <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
+                <% end %>
+                
+                <%= link_to "https://www.snapchat.com/add/cariocah10", :target => "_blank" do %>
+                    <li><i class="fa fa-snapchat-ghost" aria-hidden="true"></i></li>
+                <% end %>
             </ul>
         </footer>
     </small>
