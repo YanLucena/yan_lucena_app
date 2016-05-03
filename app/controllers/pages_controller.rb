@@ -9,7 +9,7 @@ class PagesController < ApplicationController
     def services
     end
     
-    def contact
+    def contacts
     end
     
 end

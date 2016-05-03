@@ -11,7 +11,7 @@ Rails.application.routes.draw do
   get 'about' => 'pages#about'
   get 'projects' => 'pages#projects'
   get 'services'=> 'pages#services'
-  get 'contact' => 'pages#contact'
+  get 'contact' => 'pages#contacts'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
   # Example of named route that can be invoked with purchase_url(id: product.id)
